@@ -16,6 +16,8 @@ Each project within this repository reflects my attempt to rebuild the interface
 
 📁 Project Structure
 <details> <summary>For Flask or Larger Projects</summary>
+
+```
 /Project-Name
 │
 ├── static/               # Static assets
@@ -33,7 +35,10 @@ Each project within this repository reflects my attempt to rebuild the interface
 ├── README.md             # Project-specific documentation
 │
 └── app.py / index.html   # Main backend file or entry HTML (depends on project)
+```
 </details> <details> <summary>For Smaller or Static-Only Projects</summary>
+
+```
 /Project-Name
 │
 ├── css/                  # Stylesheets
@@ -41,6 +46,7 @@ Each project within this repository reflects my attempt to rebuild the interface
 ├── images/               # Image assets
 ├── index.html            # Main HTML file
 └── README.md             # Project documentation
+```
 </details>
 
 
