@@ -14,10 +14,8 @@ Each project within this repository reflects my attempt to rebuild the interface
 
 ---
 
-## 📁 Project Structure
-
--> Each replicated project is stored in its own folder with the following general structure:
-
+📁 Project Structure
+<details> <summary>For Flask or Larger Projects</summary>
 /Project-Name
 │
 ├── static/               # Static assets
@@ -35,10 +33,7 @@ Each project within this repository reflects my attempt to rebuild the interface
 ├── README.md             # Project-specific documentation
 │
 └── app.py / index.html   # Main backend file or entry HTML (depends on project)
-
-
--> If the project is small or static-only (no Flask or backend logic), the structure might look like:
-
+</details> <details> <summary>For Smaller or Static-Only Projects</summary>
 /Project-Name
 │
 ├── css/                  # Stylesheets
@@ -46,6 +41,7 @@ Each project within this repository reflects my attempt to rebuild the interface
 ├── images/               # Image assets
 ├── index.html            # Main HTML file
 └── README.md             # Project documentation
+</details>
 
 
 A brief overview is provided in each project's README file, detailing:
